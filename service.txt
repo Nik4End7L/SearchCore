@@ -1,0 +1,14 @@
+[Unit]
+Description=Neman Search Engine
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/search_engine
+ExecStart=/home/ubuntu/search_engine/.venv/bin/uvicorn server:app --host 127.0.0.1 --port 8000
+Restart=always
+RestartSec=5
+Environment="PATH=/home/ubuntu/search_engine/.venv/bin:/usr/bin"
+
+[Install]
+WantedBy=multi-user.target

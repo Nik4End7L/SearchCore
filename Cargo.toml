@@ -1,0 +1,13 @@
+[package]
+name = "neman_search"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "neman_search"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.28.3", features = ["extension-module"] }
+quick-xml = "0.31"
+strsim = "0.11"
