@@ -1,1 +1,0 @@
-/home/nikendl/Videos/ServiceOfSearch_fixed2/ServiceOfSearch_fixed/ServiceOfSearch/target/debug/libneman_search.so: /home/nikendl/Videos/ServiceOfSearch_fixed2/ServiceOfSearch_fixed/ServiceOfSearch/src/lib.rs
